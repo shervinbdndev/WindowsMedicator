@@ -21,3 +21,19 @@
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"></img>
 <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"></img>
 <hr>
+
+
+<br>
+
+<h1 align='center'><b>How To Run</b></h1>
+First of All Clone the project from here  `~ git clone https://github.com/shervinbdndev/WindowsMedicator.git`
+
+Then go To Project's Directory with  ``~ cd WindowsMedicator-master`` No Matters if Your Using Windows or Linux.
+
+For Running in Python Console 👇
+
+```py
+~ python WindowsMedicator.py
+```
+
+If You Want you can Use The Executable file in `` WindowsMedicator(exe) `` and run `` WindowsMedicator.exe ``
