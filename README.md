@@ -26,15 +26,26 @@
 <br>
 
 <h1 align='center'><b>How To Run</b></h1>
+
 First of All Clone the project from here  ``~ git clone https://github.com/shervinbdndev/WindowsMedicator.git``
+
+<br>
 
 Then go To Project's Directory with  ``~ cd WindowsMedicator-master`` No Matters if Your Using Windows or Linux.
 
+<br>
+
 For Running in Python Console 👇
+
+<br>
 
 First Run `` pip install colorama `` or use `` py -m pip install -r requirements.txt ``
 
+<br>
+
 Then Run the Code Below 👇
+
+<br>
 
 ```py
 ~ python WindowsMedicator.py
