@@ -26,7 +26,7 @@
 <br>
 
 <h1 align='center'><b>How To Run</b></h1>
-First of All Clone the project from here  `~ git clone https://github.com/shervinbdndev/WindowsMedicator.git`
+First of All Clone the project from here  ``~ git clone https://github.com/shervinbdndev/WindowsMedicator.git``
 
 Then go To Project's Directory with  ``~ cd WindowsMedicator-master`` No Matters if Your Using Windows or Linux.
 
