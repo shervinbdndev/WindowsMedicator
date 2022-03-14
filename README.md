@@ -32,6 +32,10 @@ Then go To Project's Directory with  ``~ cd WindowsMedicator-master`` No Matters
 
 For Running in Python Console 👇
 
+First Run `` pip install colorama `` or use `` py -m pip install -r requirements.txt ``
+
+Then Run the Code Below 👇
+
 ```py
 ~ python WindowsMedicator.py
 ```
