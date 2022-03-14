@@ -4,7 +4,7 @@
     a Windows Based Open Source Application For Fixing and Repairing your Windows OS Images and Verifying Corrupted Files.
 </h2>
 <div align='center'>
-    <img src="https://github.com/shervinbdndev/WindowsMedicator/blob/master/preview/preview.png"></img>
+    <img src="https://github.com/shervinbdndev/WindowsMedicator/blob/master/preview/v1.png"></img>
 </div>
 <hr>
 <br>
