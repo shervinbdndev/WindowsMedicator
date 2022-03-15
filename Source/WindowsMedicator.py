@@ -102,7 +102,28 @@ class MainScript(RunProgramAsAdmin , ScriptHeaders):
                     continue
                 elif (sUserInput.startswith('n')):
                     break
-            elif (userInput in ['exit' , '8']):
+            elif (userInput.startswith("8")):
+                nUserInput : str = str(input("[~] This Option Will Uninstall All of Your Builtins apps , Would You Like to Uninstall All of Your Builtins Apps?(y/n) "))
+                if (nUserInput.startswith('y')):
+                    print(f"\n{Fore.GREEN}Uninstalling Builtins Applications . . .\n")
+                    print(f"{Fore.YELLOW}Do Not Turn off Your PC While Scanning !{Fore.WHITE}")
+                    subprocess.call(args=['Get-AppxPackage' , '|' , 'Remove-AppxPackage'])
+                    print(f"{Fore.GREEN}All Builtins Applications Uninstalled Successfully.{Fore.WHITE}")
+                    sUserInput : str = str(input("[~] Would You Like To Continue Scanning?(y/n) "))
+                    if (sUserInput.startswith('y')):
+                        os.system(command='cls')
+                        continue
+                    elif (sUserInput.startswith('n')):
+                        break
+            elif (userInput.startswith("9")):
+                nUserInput : str = str(input("[~] This Option Will Reset Factory Your Windows , Woulf You Like to Continue?(y/n) "))
+                if (nUserInput.startswith('y')):
+                    print(f"\n{Fore.GREEN}Reseting system . . .\n")
+                    print(f"{Fore.YELLOW}Do Not Turn off Your PC While Scanning !{Fore.WHITE}")
+                    subprocess.call(args=['systemreset' , '--resetfactory'])
+                    print(f"{Fore.GREEN}All Done.{Fore.WHITE}")
+                    continue
+            elif (userInput in ['exit' , '99']):
                 break
             else:
                 os.system(command='cls')
