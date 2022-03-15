@@ -1,10 +1,10 @@
 <h1 align='center' style="font-size:5rem"><b>Windows Medicator</b></h1>
-<h2 align='center'><b>Version 1.0.0</b></h2>
+<h2 align='center'><b>Version 2.0.0</b></h2>
 <h2 align='center'>
     a Windows Based Open Source Application For Fixing and Repairing your Windows OS Images and Verifying Corrupted Files.
 </h2>
 <div align='center'>
-    <img src="https://github.com/shervinbdndev/WindowsMedicator/blob/master/preview/v1.png"></img>
+    <img src="https://github.com/shervinbdndev/WindowsMedicator/blob/master/preview/v2.png"></img>
 </div>
 <hr>
 <br>
