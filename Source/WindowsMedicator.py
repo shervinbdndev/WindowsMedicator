@@ -2,6 +2,7 @@
 from AdminPrivileges import (RunProgramAsAdmin , ScriptHeaders)
 
 """ Base Libraries """
+import os
 import sys
 import ctypes
 import subprocess
@@ -29,6 +30,7 @@ class MainScript(RunProgramAsAdmin , ScriptHeaders):
                 print(f"\n{Fore.GREEN}Finished Scanning .{Fore.WHITE}\n")
                 sUserInput : str = str(input("[~] Would You Like To Continue Scanning?(y/n) "))
                 if (sUserInput.startswith('y')):
+                    os.system(command='cls')
                     continue
                 elif (sUserInput.startswith('n')):
                     break
@@ -39,6 +41,7 @@ class MainScript(RunProgramAsAdmin , ScriptHeaders):
                 print(f"\n{Fore.GREEN}Finished Scanning .{Fore.WHITE}\n")
                 sUserInput : str = str(input("[~] Would You Like To Continue Scanning?(y/n) "))
                 if (sUserInput.startswith('y')):
+                    os.system(command='cls')
                     continue
                 elif (sUserInput.startswith('n')):
                     break
@@ -49,6 +52,7 @@ class MainScript(RunProgramAsAdmin , ScriptHeaders):
                 print(f"\n{Fore.GREEN}Finished Scanning .{Fore.WHITE}\n")
                 sUserInput : str = str(input("[~] Would You Like To Continue Scanning?(y/n) "))
                 if (sUserInput.startswith('y')):
+                    os.system(command='cls')
                     continue
                 elif (sUserInput.startswith('n')):
                     break
@@ -59,6 +63,7 @@ class MainScript(RunProgramAsAdmin , ScriptHeaders):
                 print(f"\n{Fore.GREEN}Finished Scanning .{Fore.WHITE}\n")
                 sUserInput : str = str(input("[~] Would You Like To Continue Scanning?(y/n) "))
                 if (sUserInput.startswith('y')):
+                    os.system(command='cls')
                     continue
                 elif (sUserInput.startswith('n')):
                     break
@@ -69,6 +74,7 @@ class MainScript(RunProgramAsAdmin , ScriptHeaders):
                 print(f"\n{Fore.GREEN}Finished Scanning .{Fore.WHITE}\n")
                 sUserInput : str = str(input("[~] Would You Like To Continue Scanning?(y/n) "))
                 if (sUserInput.startswith('y')):
+                    os.system(command='cls')
                     continue
                 elif (sUserInput.startswith('n')):
                     break
@@ -79,6 +85,7 @@ class MainScript(RunProgramAsAdmin , ScriptHeaders):
                 print(f"\n{Fore.GREEN}Finished Scanning .{Fore.WHITE}\n")
                 sUserInput : str = str(input("[~] Would You Like To Continue Scanning?(y/n) "))
                 if (sUserInput.startswith('y')):
+                    os.system(command='cls')
                     continue
                 elif (sUserInput.startswith('n')):
                     break
@@ -91,12 +98,14 @@ class MainScript(RunProgramAsAdmin , ScriptHeaders):
                 print(f"{Fore.GREEN}Scan Finished.{Fore.WHITE}")
                 sUserInput : str = str(input("[~] Would You Like To Continue Scanning?(y/n) "))
                 if (sUserInput.startswith('y')):
+                    os.system(command='cls')
                     continue
                 elif (sUserInput.startswith('n')):
                     break
             elif (userInput in ['exit' , '8']):
                 break
             else:
+                os.system(command='cls')
                 print(f"{Fore.RED}[!] Command is not Defined")
                 continue
             continue
