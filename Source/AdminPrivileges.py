@@ -54,4 +54,4 @@ class ScriptHeaders:
         print(f"\t{Fore.RED}[ Danger Zone ]")
         print(f"{Fore.MAGENTA}[{Fore.GREEN}8{Fore.MAGENTA}] {Fore.YELLOW}(DANGER) {Fore.WHITE}Uninstall & Delete All Windows Builtins Apps")
         print(f"{Fore.MAGENTA}[{Fore.GREEN}9{Fore.MAGENTA}] {Fore.RED}(DANGER) {Fore.WHITE}Reset Factory PC\n\n")
-        print(f"{Fore.MAGENTA}[{Fore.GREEN}99{Fore.MAGENTA}] {Fore.WHITE}Exit")
+        print(f"{Fore.MAGENTA}[{Fore.GREEN}00{Fore.MAGENTA}] {Fore.WHITE}Exit")

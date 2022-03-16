@@ -116,14 +116,14 @@ class MainScript(RunProgramAsAdmin , ScriptHeaders):
                     elif (sUserInput.startswith('n')):
                         break
             elif (userInput.startswith("9")):
-                nUserInput : str = str(input("[~] This Option Will Reset Factory Your Windows , Woulf You Like to Continue?(y/n) "))
+                nUserInput : str = str(input("[~] This Option Will Reset Factory Your Windows , Would You Like to Continue?(y/n) "))
                 if (nUserInput.startswith('y')):
                     print(f"\n{Fore.GREEN}Reseting system . . .\n")
                     print(f"{Fore.YELLOW}Do Not Turn off Your PC While Scanning !{Fore.WHITE}")
                     subprocess.call(args=['systemreset' , '--resetfactory'])
                     print(f"{Fore.GREEN}All Done.{Fore.WHITE}")
                     continue
-            elif (userInput in ['exit' , '99']):
+            elif (userInput == "00"):
                 break
             else:
                 os.system(command='cls')
