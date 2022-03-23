@@ -137,7 +137,7 @@ class MainScript(RunProgramAsAdmin , ScriptHeaders):
                 try:
                     subprocess.call(args=['DISM' , '/online' , '/enable-feature' , '/featurename:VirtualMachinePlatform' , '/all' , '/norestart'])
                     subprocess.call(args=['DISM' , '/online' , '/enable-feature' , '/featurename:Microsoft-Windows-Subsystem-Linux' , '/all' , '/norestart'])
-                    print(f"{Fore.GREEN}All Linux Features Enabled Successfully")
+                    print(f"{Fore.GREEN}All Linux Features Enabled Successfully{Fore.WHITE}")
                     sUserInput : str = str(input("[~] Would You Like To Continue Scanning?(y/n) "))
                     if (sUserInput.startswith('y')):
                         os.system(command='cls')
