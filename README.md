@@ -67,4 +67,4 @@ Then Run the Code Below 👇
 ~ python WindowsMedicator.py
 ```
 
-If You Want you can Use The Executable file in `` Windows `` and run `` WindowsMedicator.exe ``
+If You Want you can Use The Executable file in `` WindowsMedicator `` and run `` WindowsMedicator.exe ``
