@@ -4,7 +4,7 @@
     a Windows Based Open Source Application For Fixing and Repairing your Windows OS Images and Verifying Corrupted Files.
 </h2>
 <div align='center'>
-    <img src="https://github.com/shervinbdndev/WindowsMedicator/blob/master/preview/v3.png"></img>
+    <img src="https://github.com/shervinbdndev/WindowsMedicator/blob/master/view/v3.png"></img>
 </div>
 <hr>
 
@@ -34,8 +34,6 @@
 <img src="https://img.shields.io/badge/Intel-Core_i5_10700K-0071C5?style=for-the-badge&logo=intel&logoColor=white"></img>
 <img src="https://img.shields.io/badge/NVIDIA-RTX2060 OC-76B900?style=for-the-badge&logo=nvidia&logoColor=white"></img>
 <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"></img>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"></img>
-<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"></img>
 <hr>
 
 
@@ -47,7 +45,7 @@ First of All Clone the project from here  ``~ git clone https://github.com/sherv
 
 <br>
 
-Then go To Project's Directory with  ``~ cd WindowsMedicator-master`` No Matters if Your Using Windows or Linux.
+Then go To Project's Directory with  ``~ cd WindowsMedicator-master`` No Matters if Your Using Windows
 
 <br>
 
@@ -55,7 +53,7 @@ For Running in Python Console 👇
 
 <br>
 
-First Run `` pip install colorama `` or use `` py -m pip install -r requirements.txt ``
+First Run `` py -m pip install -r requirements.txt ``
 
 <br>
 
